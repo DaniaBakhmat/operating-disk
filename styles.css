@@ -1,11 +1,11 @@
 html {
-	height: 100%
+	min-height: 100%;
 }
 body {
 	background: #686868;
 	color: #F5F5F5;
 	margin: 0;
-	height: 100%
+	min-height: 100%;
 }
 
 a, a:visited {
@@ -69,5 +69,9 @@ header .logo {
 video {
 	width: 100%;
 	aspect-ratio: 16 / 9;
+}
+
+p {
+	word-wrap: break-word;
 }
 
